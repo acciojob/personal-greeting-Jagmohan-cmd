@@ -16,7 +16,7 @@ const App = () => {
       <input id="name" onChange={onInputChange} type = "text"/>
       </form>
      {
-      name && <p>`Hello ${name}!`</p>
+      name && <p>{`Hello ${name}!`}</p>
      } 
     </div>
   )
